@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "React",
+			"path": "../../../git/React"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "00-hola-react"
+	}
+}
