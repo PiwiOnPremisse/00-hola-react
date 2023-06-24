@@ -6,3 +6,19 @@ body{
     place-content: center;
     min-height: 100vh;
 }
+
+.tw-follow-card{
+    display: flex;
+}
+
+.tw-follow-card-img{
+    width: 48px;
+    height: 48px;
+    border-radius: 1080px;
+}
+
+
+
+.tw-followCard-button{
+
+}

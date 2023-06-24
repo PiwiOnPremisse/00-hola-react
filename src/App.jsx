@@ -1,19 +1,17 @@
-export function Ap(){
+import './index.css'
+import { TwitterFollowCard } from './TwitterFollowCard'
+
+export function App(){
     return(
-        <article>
-            <header>
-                <img src="https://yt3.googleusercontent.com/vRF8BHREiJ3Y16AbMxEi_oEuoQlnNNqGpgULuZ6zrWSAi24HcxX3Vko42RN8ToctH-G0qlWd=s176-c-k-c0x00ffffff-no-rj" alt="" />
-                <div>
-                    <strong>Miguel Angel Vilalon</strong>
-                    <span>@minudev</span>
-                </div>
-            </header>
-            <aside>
-                <button>
-                    Seguir
-                </button>
-            </aside>
-        </article>
+        <section className="App">
+            <TwitterFollowCard isFollowing userName='Piwi'>
+                Miguel Martines OWO
+            </TwitterFollowCard>
+
+            <TwitterFollowCard isFollowing userName='Piwi'>
+                Victoria Navarrete
+            </TwitterFollowCard>
+        </section>
     
     )
 }

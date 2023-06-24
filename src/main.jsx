@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { Ap } from './App.jsx'
+import { App } from './App.jsx'
 import { Mapa } from './App.jsx'
 import './index.css'
 
@@ -21,6 +21,6 @@ const SpecialButton = ({text}) => {
 }
 
 root.render(
-  <Ap/>
+  <App/>
 
 )
