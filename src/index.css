@@ -9,7 +9,22 @@ body{
 
 .tw-follow-card{
     display: flex;
+    gap: 45px;
+    font-size: .8rem;
+    align-items: center;
+    justify-content: space-between;   
 }
+
+.tw-follow-card-header{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    
+}
+
+
+
+
 
 .tw-follow-card-img{
     width: 48px;
@@ -17,8 +32,28 @@ body{
     border-radius: 1080px;
 }
 
+.tw-follow-card-texto{
+    display: grid;
 
+    
+}
+
+.tw-follow-card-strong{
+    color: aliceblue;
+    
+}
+
+.tw-follow-card-span{
+    color: aliceblue;
+    font-style: italic;
+    opacity: .5;
+}
 
 .tw-followCard-button{
-
+    padding: 6px 16px;
+    
+    border: 0;
+    font-family: system-ui;
+    font-weight: bolder;
+    border-radius: 999px;
 }

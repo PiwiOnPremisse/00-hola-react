@@ -4,19 +4,18 @@ export function TwitterFollowCard ({children, userName = "piwi", isFollowing}){
         <article className="tw-follow-card">
             <header className="tw-follow-card-header">
                 <img 
-                    className="tw-follow-card-img"
-                    src={'https://unavatar.io/${userName}'} 
+                    className='tw-follow-card-img'
                     alt="El avatar" 
-                />
-                <div>
-                    <strong>{children}</strong>
-                    <span className="tw-follow-card">@{userName}</span>
+                    src={'https://unavatar.io/${userName}'}/>
+                <div className="tw-follow-card-texto">
+                    <strong className="tw-follow-card-strong">{children}</strong>
+                    <span className="tw-follow-card-span">@{userName}</span>
                 </div>
             </header>
 
 
             <aside>
-                <button className="tw-follow-card">
+                <button className="tw-followCard-button">
                     Seguir
                 </button>
             </aside>
