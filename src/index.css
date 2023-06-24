@@ -5,6 +5,7 @@ body{
     display: grid;
     place-content: center;
     min-height: 100vh;
+    color: aliceblue;
 }
 
 .tw-follow-card{
@@ -22,7 +23,11 @@ body{
     
 }
 
-
+.App{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
 
 
 
@@ -50,10 +55,24 @@ body{
 }
 
 .tw-followCard-button{
-    padding: 6px 16px;
-    
+    cursor: pointer;
+    padding: 6px 16px;   
     border: 0;
     font-family: system-ui;
     font-weight: bolder;
     border-radius: 999px;
+    transition: .2s ease-in-out background-color;
+}
+
+.tw-followCard-button:hover{
+    background-color: rgb(89, 215, 253);
+    
+
+}
+
+
+
+.tw-followCard-button.is-following:hover{
+    background-color: rgb(216, 32, 19);
+    
 }
